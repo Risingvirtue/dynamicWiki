@@ -34,7 +34,10 @@
 			<input type="text" ng-model="search"></input>
 			</div>
 			<p>{{search}}</p>
-			<p>{{a}}</p>
+			<p>{{l}}</p>
+			<ul ng-repeat="d in data">
+				<li>{{d.name}}</li>
+			</ul>
 		</div>
 	</body>
 	
